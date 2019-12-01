@@ -1,7 +1,7 @@
 // Write your solution in this file!
 const driver ={
-  name:"";
-  ID:"";
+  name:"",
+  ID:"",
 };
 
 function updateDriverWithKeyAndValue(driver ,key, value){
