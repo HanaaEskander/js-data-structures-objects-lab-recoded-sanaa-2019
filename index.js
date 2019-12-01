@@ -1,21 +1,21 @@
 // Write your solution in this file!
-const driverHanaa ={};
+const driver ={};
 
-function updateDriverWithKeyAndValue(driverHanaa ,key, value){
-    const update= {...driverHanaa};
+function updateDriverWithKeyAndValue(driver ,key, value){
+    const update= {...driver};
     update[key]=value;
     return update;
 }
-function destructivelyUpdateDriverWithKeyAndValue(driverHanaa , key , value){
-    driverHanaa[key] = value;
-    return driverHanaa;
+function destructivelyUpdateDriverWithKeyAndValue(driver , key , value){
+    driver[key] = value;
+    return driver;
 }
-function destructivelyDeleteFromDriverByKey(driverHanaa , key ) {
-    delete driverHanaa[key];
-    return driverHanaa;
+function destructivelyDeleteFromDriverByKey(driver , key ) {
+    delete driver[key];
+    return driver;
 }
-function deleteFromDriverByKey(driverHanaa , key ) {
-    const deleteDriver=  {...driverHanaa};
+function deleteFromDriverByKey(driver , key ) {
+    const deleteDriver=  {...driver};
     delete deleteDriver[key];
     return deleteDriver;
 }
