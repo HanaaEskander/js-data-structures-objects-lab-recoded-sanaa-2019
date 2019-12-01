@@ -2,7 +2,7 @@
 const driver ={
   name:"",
   ID:"",
-  lis
+  license:"",
 };
 
 function updateDriverWithKeyAndValue(driver ,key, value){
